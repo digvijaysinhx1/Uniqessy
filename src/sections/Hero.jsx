@@ -90,7 +90,7 @@ const Hero = () => {
                 <p>We design and build modern websites that help brands stand out and grow online.</p>
               </div>
             </div>
-            <div className="hero-cta"><StartProject link="#cta" text="START A PROJECT"/></div>
+            <div className="hero-cta"><StartProject link="#contact" text="START A PROJECT"/></div>
           </div>
         </div>
       </div>

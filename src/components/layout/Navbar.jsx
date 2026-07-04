@@ -23,12 +23,14 @@ const Navbar = ( elem) => {
         <div className="container">
           <nav className="navbar py-4 px-2 h-fit flex items-center justify-between">
             <div className="logo flex items-center">
+              <a href="#">
               <img
                 src={logo}
                 alt="logo"
                 loading="eager"
                 className="h-4.5 min-w-33"
-              />
+                />
+                </a>
             </div>
 
             <div className="ctas-pulse flex flex-row items-center gap-6 justify-center">
@@ -88,7 +90,7 @@ const Navbar = ( elem) => {
               ))}
             </nav>
           </div>
-          <div className="flex flex-col hidden space-y-4">
+          <div className=" flex-col hidden space-y-4">
             <a 
               href="mailto:hello@nakula.com" 
               className="text-sm text-gray-400  hover:text-white transition-colors"

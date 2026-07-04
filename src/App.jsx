@@ -38,7 +38,9 @@ const App = () => {
       lenis.destroy()
       gsap.ticker.remove((time) => lenis.raf(time * 1000))
     }
+    window.lenis = lenis.current;
   }, [])
+
 
   return (
     <>
