@@ -12,7 +12,10 @@ const StartProject = (props) => {
     }
   };
   return (
-    <a href={props.link} className="bg-[#220F0D] transition-all ease-in-out duration-200 hover:bg-[#FF4925] hover:text-black border border-[#FF4925] text-[#FF4925] flex items-center justify-between px-2 py-4 gap-3 rounded-2xl  w-fit">
+    <a
+      href={props.link}
+      className="bg-[#220F0D] transition-all ease-in-out duration-200 hover:bg-[#FF4925] hover:text-black border border-[#FF4925] text-[#FF4925] flex items-center justify-between px-2 py-4 gap-3 rounded-2xl  w-fit"
+    >
       {props.text}{" "}
       <svg
         width="20px"

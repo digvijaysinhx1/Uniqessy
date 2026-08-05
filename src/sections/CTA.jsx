@@ -16,7 +16,7 @@ const CTA = () => {
               <p className="cta-description">
                 Have a project in mind? We'd love to hear about it. Let's create something great together!
               </p>
-              <StartProject link="https://cal.com/rathod-digvijay-sinh-providenz/discovery-call" text="GET IN TOUCH" />
+              <StartProject link="https://cal.com/rathod-digvijay-sinh-uniqessy/discovery-call" text="GET IN TOUCH" />
             </div>
           </div>
         </div>
